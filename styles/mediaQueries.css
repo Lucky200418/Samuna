@@ -1,0 +1,94 @@
+@media screen and (max-width: 1300px) {
+    .playMusicModal{
+        width: 45%;
+    } 
+    .musicContainerList{
+        grid-template-columns: 1.5fr 1fr; 
+    } 
+    .gridImageLeft img{
+    transform: scale(0.9);
+    }
+}
+@media screen and (max-width: 800px) {
+  .shop .box-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+  }
+  .shop .box-container .box{
+    width: 100%;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 720px) {
+  .songListDetails > div{
+    width: 100%;
+    height: auto;
+ }
+ .playSongIcon{
+  font-size: 4rem !important;
+}
+.songListSectiion h1{
+  margin-left: 2rem;
+  font-size: 3rem;
+}
+ #dynamicGrid{
+    display: grid;
+    grid-template-rows: repeat(3) 1fr;
+    gap: 3rem;
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 200rem;
+    height: auto;
+    padding-left: 2rem;
+}
+.songListDetails > div > .musicPlayImage{
+  width: 100%;
+}
+    .playMusicModal{
+        width: 70%;
+    } 
+    .musicContainerList{
+        grid-template-columns: 1fr; /* Set to one column for mobile */
+        grid-template-rows: 2fr 0.9fr; /* Two rows */
+    }
+    .gridImageLeft{
+        margin-left: 0rem;  
+    }
+    .gridImageLeft img{
+       transform: translateY(-30%);
+    }
+    .albumContainerContent{
+         margin: 20% 3rem;
+    }
+    .albumbackIcon{
+          margin: 10% 10%;
+    }
+    .artistImage{
+        width: 50%;
+        height: 50%;
+        border-radius: 20%;
+        overflow: hidden;
+        border: 16px solid var(--primary-color);
+        margin: 0 auto;
+        transform: translateY(-70%);
+      }
+      .musicContainerbtn{
+        width: 60%;
+      }
+      .shufleIcon{
+        font-size: 3rem;
+      }
+      .musicListBox{
+        padding: 0.1rem 0.1rem;
+      }
+      .subscribe .row .content p{
+        font-size: 2.7rem;
+      }
+      .subscribe .row .inputBox .email{
+        width: 50%;
+      }
+      .subscribebtn{
+        /* width: 30%; */
+      }
+}
